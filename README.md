@@ -1,8 +1,8 @@
 # MATLABLicensePolling
-Script to poll for a MATLAB Toolbox license in a separate window.
+This is a script to poll for a MATLAB toolbox license.
 
-Everyone who works in a company, which uses floating licenses for MathWorks products knows it: 
-You can't go on or start working on your project because you a toolbox license is missing.
+Everyone who works in a company which uses floating licenses for MathWorks products knows it: 
+You can't go on or start working on your project because a toolbox license is missing.
 
 That's why I wrote this little batch script. 
 Just start the batch file, type in the license you want to check out from your license server and wait.
