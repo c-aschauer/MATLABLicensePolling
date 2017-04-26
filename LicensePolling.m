@@ -1,4 +1,4 @@
-% checkout script für Simulink
+% checkout script fÃ¼r Simulink
 function LicensePolling(name)
 clc;
 tStart = tic;
@@ -8,10 +8,10 @@ pauseSecs = 5;
 disp(['Starting ' name ' license checkout polling...']);
 while status == 0
 	[status,errmsg] = license('checkout',name);
-    pause(pauseSecs);
     if status == 0
       counter = counter + 1;
       disp(['failed tries: ' num2str(counter)]);
+      pause(pauseSecs);
     end
 end
 disp([name ' license checkout successful!']);
