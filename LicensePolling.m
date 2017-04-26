@@ -1,4 +1,3 @@
-% checkout script für Simulink
 function LicensePolling(name)
 clc;
 tStart = tic;
